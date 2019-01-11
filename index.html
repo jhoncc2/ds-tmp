@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/bat-signal/assets/css/style.css?v=9172947fe093dc1cc5329578614088e013859423">
+    <link rel="stylesheet" type="text/css" media="screen" href="/docs/css/style.css">
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>BatSignal | bat-signal</title>
@@ -26,25 +26,65 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jhoncc2/bat-signal">View on GitHub</a>
+          a id="forkme_banner" href="https://github.com/jhoncc2/bat-signal">View on GitHub</a>
 
-          <h1 id="project_title">bat-signal</h1>
-          <h2 id="project_tagline"></h2>
-
+          <h1 id="project_title">Bat Signal</h1>
+          <h3 id="project_tagline">An Expertise Recommendation system</h3>
           
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1 id="batsignal">BatSignal</h1>
+      <section id="main_content" class="inner" style="max-width: 940px;">
+        <h1 id="batsignal">Bat Signal</h1>
 <p>This tool is created aiming to help new developers get into the community of Pharo, to help him contact with experts in the area, and so to shorten the time they spend looking for information. The users might find more reliable, updated and useful answers from experts.</p>
 
+<style>
+.right {
+  float: right;
+  padding: 20px;
+}
+.left {
+  float: left;
+  padding: 20px;
+}
+.section-side {
+  margin: 30px;
+  width: 350px;
+}
+.exp_img {
+  width: 400px;
+  margin: 30px;
+}
+</style>
+<!-- sections -->
+<div>
+  
+  <!-- section 1 -->
+  <div class="section" style="overflow: auto;">
+    <img class="exp_img" src="docs/images/pharoRS.png" alt="Italian Trulli">
+    <div class="section-side left">
+      <h3 id="batsignal">Pharo Expertise Recommender system </h3>
+      <p>The Pharo expertise recommendation system is developed enterily in the Pharo language. The data the bot is collected from a code processing, and historical information of the source code from the code changes of each Pharo release. The test server of this project can be found in Discrod (<a href="https://discord.gg/h5UBfV3">https://discord.gg/h5UBfV3</a>)</p>
+    </div>
+  </div>
+
+  <!-- section 2 -->
+  <div class="section" style="overflow: auto;">
+    <div class="section-side right">
+        <h3 id="batsignal">Science Recommender system </h3>
+        <p>The science recommendation system is a concept chat-bot which is used to test the recommendation system's interaction with real users. We can see how people reacts in front of a recommendation system by natural language. The data of this bot was collected from wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_people_considered_father_or_mother_of_a_scientific_field">"the science fathers"</a>. The test server can be found in Discord (<a href="https://discord.gg/f865cgx">https://discord.gg/f865cgx</a>).</p>
+    </div>
+    <img class="exp_img" src="docs/images/scienceRS.png" alt="Italian Trulli">
+  </div>
+</div>
+
+<!-- sub sections -->
 <h2 id="installation">Installation</h2>
 <p>Run the script below in the workspace of Pharo (tested on Pharo 6.1, Pharo 7 comming soon)</p>
 
-<pre><code class="language-Smalltalk">Metacello new
+<pre><code class="language-Smalltalk">Metacello nCONTENTew
     baseline: #BatSignal;
     repository: 'github://jhoncc2/bat-signal:dev';
     load.
